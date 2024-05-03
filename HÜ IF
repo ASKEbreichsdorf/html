@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meine Webseite</title>
+    <style>
+        /* Stil für die Navigation */
+        .navbar {
+            width: 200px; /* Breite der Navigationsleiste */
+            background-color: #333; /* Hintergrundfarbe */
+            color: white; /* Textfarbe */
+            float: left; /* Links ausrichten */
+            height: 100%; /* Volle Höhe des Bildschirms einnehmen */
+        }
+        /* Stil für den Hauptinhalt */
+        .main {
+            margin-left: 220px; /* Platz für die Navigationsleiste */
+        }
+        /* Stil für den Kopfbereich */
+        header {
+            background-color: #ccc; /* Hintergrundfarbe */
+            padding: 20px; /* Innenabstand */
+        }
+        /* Stil für den Hauptteil */
+        main {
+            background-color: #f0f0f0; /* Hintergrundfarbe */
+            padding: 20px; /* Innenabstand */
+            min-height: 400px; /* Mindesthöhe */
+        }
+        /* Stil für den Fußbereich */
+        footer {
+            background-color: #333; /* Hintergrundfarbe */
+            color: white; /* Textfarbe */
+            padding: 20px; /* Innenabstand */
+            clear: both; /* Klären, um Platzierung zu korrigieren */
+        }
+    </style>
+</head>
+<body>
+
+<!-- Navigationsleiste -->
+<nav class="navbar">
+    <ul>
+        <li><a href="#">Link 1</a></li>
+        <li><a href="#">Link 2</a></li>
+        <li><a href="#">Link 3</a></li>
+        <!-- Weitere Links können hier hinzugefügt werden -->
+    </ul>
+</nav>
+
+<!-- Hauptinhalt -->
+<div class="main">
+    <!-- Kopfbereich -->
+    <header>
+        <h1>Header</h1>
+    </header>
+
+    <!-- Hauptteil -->
+    <main>
+        <h2>Main Part</h2>
+        <p>Hier kommt der Hauptinhalt deiner Webseite.</p>
+    </main>
+
+    <!-- Fußbereich -->
+    <footer>
+        <p>Footer</p>
+    </footer>
+</div>
+
+</body>
+</html>
